@@ -1,0 +1,151 @@
+/* common style */
+body {
+  font-family: Work Sans;
+}
+* {
+  margin: 0;
+}
+
+/* nav related style */
+.header {
+  background-size: cover;
+  background-image: url("../images/banner/banner2.png");
+}
+.header-title {
+  width: 525px;
+  color: #151414;
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
+}
+.header-description {
+  width: 494px;
+  color: #444343;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-left: 25px;
+  margin-top: 15px;
+}
+.btn {
+  width: 160px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #f15b22;
+  border: 0;
+  color: white;
+  margin-left: 360px;
+  margin-top: 15px;
+}
+.banner {
+  padding: 216px 230px 263px 845px;
+  align-items: center;
+}
+.section-head {
+  display: flex;
+  justify-content: space-around;
+}
+.section-image {
+  width: 100%;
+  margin: 186px;
+}
+.section-experience {
+  margin: 350px;
+}
+.section-title {
+  width: 288px;
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+.section-description {
+  width: 416px;
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-top: 24px;
+}
+.section-list {
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-top: 16px;
+}
+.my-plan {
+  text-align: center;
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: -200px;
+}
+.skils-container {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  /* margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 50px; */
+  margin: 50px 200px;
+  gap: 100px;
+}
+.skill .skill-images {
+  width: 72.958px;
+  height: 72.958px;
+}
+.skill .skill-title {
+  color: #151414;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+}
+.skill .skill-description {
+  color: #737272;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+}
+.information {
+  margin: 200px;
+  border-radius: 8px;
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("../images/watch.png");
+  width: 1140px;
+  height: 300px;
+}
+.information-title {
+  width: 459px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 59px;
+  padding-left: 64px;
+}
+.information-button {
+  width: 160px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px 36px;
+  color: #f15b22;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+}
+.btn-style{
+    padding-left: 64px;
+}
